@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <h1 class="main-heading">Calculator</h1>
+      <section class="upper-container">
+        <div class="calculator-container">
+          <p class="input">
+            <label for="fnumber">Enter number 1</label>
+
+            <input
+              type="text"
+              name="number one"
+              id="fnumber"
+              value=""
+              placeholder="Enter number one"
+            />
+          </p>
+
+          <p class="input">
+            <label for="snumber">Enter number 2</label>
+            <input
+              type="text"
+              name="number one"
+              value=""
+              placeholder="Enter number one"
+              id="snumber"
+            />
+          </p>
+
+          <p class="output">
+            <label>Result:</label>
+            <span id="r" class="result"></span>
+          </p>
+          <div class="btn-container">
+            <button class="btn" id="addition">
+              <img
+                src="images/add-outline.svg"
+                class="img-icon"
+                alt="plus image"
+              />
+            </button>
+            <button class="btn" id="subtraction">
+              <img
+                src="images/remove-outline.svg"
+                class="img-icon"
+                alt="plus image"
+              />
+            </button>
+            <button class="btn" id="multiplication">
+              <img
+                src="images/close-outline.svg"
+                class="img-icon"
+                alt="plus image"
+              />
+            </button>
+            <button class="btn" id="divide">
+              <img
+                src="images/math-division-icon.svg"
+                class="img-icon division"
+                alt="plus image"
+              />
+            </button>
+
+            <button id="clear" class="Clear">clear</button>
+          </div>
+          <div class="name">Bilal Ahmed</div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
